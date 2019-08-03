@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>conditional structure with operator 1</title>
+</head>
+<body>
+    <script>
+        let valuea = Number(prompt("Type a first number"));
+        let valueb = Number(prompt("Type a second number"));
+
+
+        switch ((valuea + valueb) > 4 ? "Below" : (valuea + valueb) < 4 ? "Over" : "other") {
+            case "Below":
+                document.write("Below");
+            break;
+            case "Over":
+                 document.write("Over");
+            break;
+            default :
+                document.write("other");
+        }
+    </script>
+</body>
+</html>
